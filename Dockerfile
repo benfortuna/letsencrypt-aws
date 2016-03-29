@@ -1,5 +1,6 @@
 FROM python:2.7-slim
 
+ENV AWS_DEFAULT_REGION us-west-2
 # This can be bumped every time you need to force an apt refresh
 ENV LAST_UPDATE 3
 
