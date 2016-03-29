@@ -1,8 +1,8 @@
 FROM python:2.7-slim
 
 ENV AWS_DEFAULT_REGION us-west-2
-ENV AWS_ACCESS_KEY_ID
-ENV AWS_SECRET_ACCESS_KEY
+ENV AWS_ACCESS_KEY_ID=
+ENV AWS_SECRET_ACCESS_KEY=
 
 # This can be bumped every time you need to force an apt refresh
 ENV LAST_UPDATE 3
